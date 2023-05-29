@@ -4,6 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+<<<<<<< HEAD
   Dialogs, StdCtrls, ExtCtrls;
 
 type
@@ -30,6 +31,22 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+=======
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+>>>>>>> ca17d2c8303e8e368ca3c68a7c228840bc1d960d
   private
     { Private declarations }
   public
@@ -44,6 +61,7 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
+<<<<<<< HEAD
 var
  nil1, nil2, nil3, hasil : real ;
  b1, b2, b3 : real;
@@ -76,10 +94,16 @@ begin
  //Hasil dari proses....
  Edit7.Text := floattostr(hasil);
  Edit8.Text := grade;
+=======
+begin
+edit3.Text:=IntToStr(StrToInt(edit1.text)+strtoint(edit2.Text));
+
+>>>>>>> ca17d2c8303e8e368ca3c68a7c228840bc1d960d
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
+<<<<<<< HEAD
  Edit1.Text := '0';
  Edit2.Text := '0';
  Edit3.Text := '0';
@@ -95,3 +119,9 @@ end;
 
 end.
  
+=======
+Close;
+end;
+
+end.
+>>>>>>> ca17d2c8303e8e368ca3c68a7c228840bc1d960d

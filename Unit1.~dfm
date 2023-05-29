@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 object TForm1
+=======
+object Form1: TForm1
+>>>>>>> ca17d2c8303e8e368ca3c68a7c228840bc1d960d
   Left = 192
   Top = 125
   Width = 1044
   Height = 540
+<<<<<<< HEAD
   Caption = 'latihan 2 kondisional'
+=======
+  Caption = 'Form1'
+>>>>>>> ca17d2c8303e8e368ca3c68a7c228840bc1d960d
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
